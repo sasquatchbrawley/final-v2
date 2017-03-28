@@ -1,0 +1,176 @@
+/*===HEADER======*/
+header {
+    height: 100px;
+    background-image: url('../img/hero2.jpg');
+    background-color: #000;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0px;
+    /*position: fixed;*/
+    top: 0;
+}
+
+nav {
+    margin: 20px 50px;
+}
+
+nav ul li {
+    font-size: 2em;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 5px;
+    margin: 0px 10px;
+}
+
+li a {
+    color: #12a563;
+    background-color: #000;
+    border: 3px inset #23a300;
+    border-radius: 10px;
+}
+
+
+/*======MEDIA======*/
+
+#music {
+    width: 25%;
+    height: 100px;
+    margin-left: 25px;
+    margin-top: 50px;
+}
+
+/*======MAIN======*/
+
+h1 {
+    color: #000
+}
+
+#main-columns {
+    width: 1320px;
+    /*height: 1200px;*/
+    position: relative;
+    box-sizing: border-box;
+    margin: 100px auto;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    text-align: justify;
+    padding: 10px 10px;
+    box-sizing: border-box;
+}
+
+#map {
+    width: 300px;
+    height: 500px;
+    border: 5px solid green;
+    border-radius: 10%
+}
+
+#col-1 {
+    text-align: center;
+}
+
+#col-1 ul li {
+    margin-bottom: 15px;
+}
+
+#col-1 ul {
+    list-style-type: none;
+}
+
+#col-1 h3 {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #12a563;
+    font-size: 2em;
+}
+
+#col-2 {
+    margin-top: 50px;
+    border-radius: 50%;
+    background-image: url('../img/wall.jpg');
+    background-size: contain;
+    padding: 5%;
+    border: 8px double green;
+    box-sizing: border-box;
+    
+}
+
+#col-2 h2 {
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #004511;
+}
+
+#col-2 p {
+    text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #002900;
+}
+
+#col-3  {
+    margin-top: 90px;
+    text-align: center;
+}
+
+#col-3 h3 {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #12a563;
+    font-size: 2em;
+}    
+
+
+/*======MEMBERS======*/
+
+#mikie {
+    background-image: url('../img/mikie1.jpg');
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    padding: 25% 5%;
+    box-sizing: border-box;
+    border: 4px outset green;
+    border-radius: 50%;
+}
+
+#emilio {
+    background-image: url('../img/emilio.jpg');
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    padding: 25% 5%;
+    box-sizing: border-box;
+    border: 4px inset green;
+    border-radius: 50%;
+}
+
+#turbo {
+    background-image: url('../img/turbz1.jpg');
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    padding: 25% 5%;
+    box-sizing: border-box;
+    border: 4px outset green;
+    border-radius: 50%;
+}
+
+#glucha {
+    background-image: url('../img/glucha1.jpg');
+    background-position: center;
+    height: 250px;
+    width: 200px;
+    padding: 25% 5%;
+    box-sizing: border-box;
+    border: 4px inset green;
+    border-radius: 50%;
+}
+/*=======FOOTER======*/
+
+footer {
+    position: relative;
+    bottom: 0px;
+}
+
+
+

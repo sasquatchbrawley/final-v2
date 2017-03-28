@@ -1,0 +1,326 @@
+/*====Universals====*/
+
+.pull-left {
+    float: left;
+
+}
+
+.pull-right {
+    float: right;
+}
+
+.inline {
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: #ffff00;
+}
+
+a:hover {
+    color: #eeee77;
+    text-decoration: underline;
+}
+
+#nav-li:hover a {
+    background-color: #353d82;
+}
+/*====BODY====*/
+
+body {
+    margin: auto;
+    background-color: #0b0512;
+    background-image: url('../img/gfspbanner.png');
+    background-size: 50%;
+    width: 100%;
+    
+}
+
+/*===HEADER===*/
+
+header {
+    height: 100px;
+    width: 100vw;
+    background-image: url('../img/hero2.jpg');
+    background-color: #000;
+    border-bottom-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    margin: 0px;
+    opacity: 0.9;
+    position: fixed;
+    top: 0;
+    z-index: 999;
+}
+
+nav {
+    margin: 20px 50px;
+}
+
+nav ul li {
+    font-size: 2em;
+    font-family: 'Rubik Mono One', sans-serif;
+    letter-spacing: 5px;
+    margin: 0px 10px;
+}
+
+li a {
+    color: #12a563;
+    background-color: #000;
+    border: 3px inset #23a300;
+    border-radius: 10px;
+}
+
+/*====HERO====*/
+
+#hero {
+    height: 500px;
+    background-image: url('../img/magrhero2.jpg');
+    background-size: cover;
+    background-position: center;
+    border: 10px inset #23a300;
+    border-radius: 125px;
+    margin: 100px 0px 10px 0px;
+    padding: 1em;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.thumbnail {
+    width: 410px;
+    margin-top: 1em;
+    margin-bottom: 0em;
+}
+
+.thumbnail:hover {
+    width:500px;
+    height: auto;
+    z-index:999;
+    margin: 0px;
+}
+
+.title-style {
+    color: #000;
+    font-family: 'Rubik Mono One', sans-serif;
+    text-align: center;
+    margin: 0;
+    position: relative;
+    top: 400px;
+}
+
+/*===Aside Section===*/
+
+
+.event-text {
+    color: #12a563;
+}
+
+.centered {
+    text-align: center;
+}
+
+aside {
+    width: 20%;
+    margin-left: 7%;
+    background-color: #030d12;
+    border: 4px outset #00f400;
+    border-radius: 10px;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+.blog-link:hover a {
+    background-color: #eeee77;
+    color: #000;
+}
+
+#blog-links {
+    padding-left: 0px;
+    margin-bottom: 0px;
+}
+
+aside ul li {
+    margin: 2em 0em;
+}
+
+aside a {
+    color: #12a563;
+}
+
+aside ul {
+    list-style-type: none;
+}
+
+#fiend {
+    width: 100%;
+    height: 122.5px;
+    background-image: url('../img/fiend.jpg');
+    background-position: center;
+    padding-top: 13%;
+}
+
+#fiend .litext {
+    position: relative;
+    bottom: 20px;
+    left: 80px;
+    visibility: hidden;
+}
+
+#fiend:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+}
+
+#wallflower {
+    width: 100%;
+    height: 122.5px;
+    background-image: url('../img/wallflower.jpg');
+    background-position: center;
+    padding-top: 13%;
+}
+
+#wallflower .litext {
+    position:relative;
+    bottom: 20px;
+    left: 80px;
+    visibility:hidden;
+}
+
+#wallflower:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+    
+}
+
+#chokeslam {
+    width: 100%;
+    height: 122.5px;
+    background-image: url('../img/chokeslam2.jpg');
+    background-position: center;
+    padding-top: 13%;
+}
+
+#chokeslam .litext {
+    position:relative;
+    bottom: 20px;
+    left: 80px;
+    visibility:hidden;
+}
+
+#chokeslam:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+    
+}
+
+/*=====MAIN=====*/
+
+main {
+    width: 60%;
+    background-color: #030d12;
+    margin-right: 5%;
+    margin-top: 2.5px;
+    margin-bottom: 30px;
+}
+
+#index-main {
+    border: 5px outset #00f400;
+    border-radius: 10px;
+}
+
+#main-title {
+    position: relative;
+    top: 10px;
+    margin: 1em;
+}
+
+main div h1 {
+    margin: 0px;
+    color: #888;
+    font-family: 'Rubik Mono One', sans-serif;
+    font-size: 1.5em;
+}
+
+#dnmls {
+    margin-top: 20px;
+    margin-left: 10px;
+    width: 560px;
+    display: inline;
+    position: relative;
+    top: 10px;
+}
+
+#lsinfo {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+#julia-vid {
+    margin-top: 30px;
+    margin-right: 10px;
+    width: 560px;
+    display: inline-block;
+}
+
+#vid-info {
+    width: 200px;
+    margin-left: 15px;
+    margin-top: 2px;
+    display: inline-block;
+}
+
+main div h3 {
+    color: #888;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+h5 {
+    color: #888;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+main div p {
+    color: #555;
+    font-size: 1em;
+    font-family: 'Rubik Mono One', sans-serif;
+}
+
+
+/*=======FOOTER======*/
+
+footer {
+    clear: both;
+    height: 70px;
+    width: 100%;
+    background-image: url('../img/hero2.jpg');
+    opacity: 0.9;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+    border-radius: 25px 25px 0px 0px;
+    margin-top: 25px;
+    margin-bottom: 0px;
+    position: relative;
+}
+.fa {
+    margin-left: 16px;
+}
+
+footer #social-media a {
+    color: green;
+}
+
+footer #social-media a:hover {
+    color: #667afe;
+}
+
+#copyright{
+    text-align: right;
+    font-size: 1em;
+    color: #fff;
+    margin: 0px;
+}

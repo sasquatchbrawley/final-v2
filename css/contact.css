@@ -1,0 +1,19 @@
+/*======MAIN======*/
+main {
+    height: 380px;
+    width: 380px;
+    margin: 125px auto;
+}
+
+iframe {
+    height: 380px;
+    width: 100%;
+    border: 10px double green;
+    border-radius: 5%;
+}
+
+/*======FOOTER======*/
+footer {
+    position: absolute;
+    bottom: 0px;
+}
