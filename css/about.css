@@ -33,9 +33,16 @@ li a {
 
 #music {
     width: 25%;
-    height: 100px;
-    margin-left: 25px;
-    margin-top: 50px;
+    height: 50px;
+    margin-left: 39%;
+    margin-top: 120px;
+    margin-bottom: 30px;
+}
+
+#musictext {
+    font-family: 'Rubik Mono One', sans-serif;
+    color: #12a563;
+    text-align: center;
 }
 
 /*======MAIN======*/
@@ -49,7 +56,7 @@ h1 {
     /*height: 1200px;*/
     position: relative;
     box-sizing: border-box;
-    margin: 100px auto;
+    margin: 0px auto;
 }
 
 .column {
@@ -109,7 +116,7 @@ h1 {
 }
 
 #col-3  {
-    margin-top: 90px;
+    margin-top: 0px;
     text-align: center;
 }
 
@@ -133,6 +140,20 @@ h1 {
     border-radius: 50%;
 }
 
+#mikie .litext {
+    position:relative;
+    bottom: 10px;
+    left: 80px;
+    visibility:hidden;
+}
+
+#mikie:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+    
+}
+
 #emilio {
     background-image: url('../img/emilio.jpg');
     background-position: center;
@@ -142,6 +163,20 @@ h1 {
     box-sizing: border-box;
     border: 4px inset green;
     border-radius: 50%;
+}
+
+#emilio .litext {
+    position:relative;
+    bottom: 10px;
+    left: 80px;
+    visibility:hidden;
+}
+
+#emilio:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+    
 }
 
 #turbo {
@@ -155,6 +190,20 @@ h1 {
     border-radius: 50%;
 }
 
+#turbo .litext {
+    position:relative;
+    bottom: 10px;
+    left: 80px;
+    visibility:hidden;
+}
+
+#turbo:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+    
+}
+
 #glucha {
     background-image: url('../img/glucha1.jpg');
     background-position: center;
@@ -165,6 +214,21 @@ h1 {
     border: 4px inset green;
     border-radius: 50%;
 }
+
+#glucha .litext {
+    position:relative;
+    bottom: 10px;
+    left: 80px;
+    visibility:hidden;
+}
+
+#glucha:hover .litext {
+    visibility: visible;
+    color: #fff;
+    background-color: gray;
+    
+}
+
 /*=======FOOTER======*/
 
 footer {
